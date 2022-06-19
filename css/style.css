@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(237, 251, 254);
+    background-image: url(../images/bg-hero-desktop.svg);
+    margin: 0 auto em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: poppins;
+  
+}
+header div{
+    width: 100%;
+    margin: auto;
+}
+
+.first-top{
+    width: 80%;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    width: 11%;
+    height: 11%;
+}
+#first-btn{
+    text-align: center;
+    padding: 1em 3em;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    box-shadow: 3px 3px 7px black;
+}
+/* second top */
+.second-top{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.second-top > div h1{
+    width: 70%;
+}
+.second-top > div p{
+    margin: 1em 0 0 0;
+    width: 80%;
+    font-size: 14px;
+}
+.second-top > div button{
+    width: 40%;
+    padding: 1em;
+    border-radius: 2em;
+    margin: 1em 0 0 0;
+    background: hsl(322, 100%, 66%);
+    color: rgb(255, 222, 255);
+    border: transparent;
+    animation: move 3s infinite;
+}
+@keyframes move{
+    0%{border: 2px solid red; box-shadow: 3px 3px 5px red;}
+    25%{border: 2px solid green; box-shadow: 3px 3px 5px green;}
+    50%{border: 2px solid blue; box-shadow: 3px 3px 5px blue;}
+    75%{border: 2px solid yellow; box-shadow: 3px 3px 5px yellow;}
+    100%{border: 2px solid red; box-shadow: 3px 3px 5px black;}
+}
+
+.second-top img{
+    width: 100%;
+}
+
+
+/* main */
+main{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 4em auto 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+main div{
+    margin: auto;
+    width: 100%;
+}
+.first-card{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-shadow: 3px 3px 7px black;
+    margin: 0 0 1em;
+}
+.first-card div{
+    padding: 4em;
+}
+.first-card img{
+    width: 60%;
+}
+.first-card div h3{
+    margin-bottom: 1em;
+    color: #13242b;
+}
+.first-card div p{
+    color: #aeafb1;
+}
+.second-card{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-shadow: 3px 3px 7px black;
+    margin: 0 0 1em;
+}
+.second-card div{
+    padding: 4em;
+}
+.second-card img{
+    width: 60%;
+}
+.second-card div h3{
+    margin-bottom: 1em;
+    color: #13242b;
+}
+.second-card div p{
+    color: #aeafb1;
+}
+
+.third-card{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: white;
+    box-shadow: 3px 3px 7px black;
+    margin: 0 0 1em;
+}
+.third-card div{
+    padding: 4em;
+}
+.third-card img{
+    width: 60%;
+}
+.third-card div h3{
+    margin-bottom: 1em;
+    color: #13242b;
+}
+.third-card div p{
+    color: #aeafb1;
+}
+
+.card{
+    width: 40%;
+    margin: 1em auto;
+    border: 2px solid white;
+    box-shadow: 3px 3px 7px black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -900px;
+    left: 0px;
+    background: white;
+    z-index: auto;
+}
+.card h3{
+    margin: 2em auto;
+    text-align: center;
+}
+.card button{
+    width: 40%;
+    padding: 1em;
+    border-radius: 2em;
+    margin: auto;
+    background: hsl(322, 100%, 66%);
+    color: rgb(255, 222, 255);
+    border: transparent;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+footer{
+    position: relative;
+    background: hsl(192, 100%, 9%);
+    color: white;
+    margin: 0 auto em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer div{
+    width: 90%;
+    margin: auto;
+}
+.footer-top{
+    color: white;
+}
+.footer-top img{
+    margin: 4em 0 1em 0;
+    background-color: yellow;
+    color: white;
+    width: 12%;
+}
+
+.footer-middle{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    display: flex;
+    padding: 1em 0;
+}
+span img{
+    padding-right: 1em;
+    max-height: 1.2em;
+}
+.footer-middle .about{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-middle .about a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8em;
+}
+.footer-middle .career{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-middle .career a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8em;
+}
+
+.footer-bottom{
+    margin-top: 2em;
+}
+.footer-bottom p{
+    padding-bottom: 2em;
+    text-align: end;
+}
