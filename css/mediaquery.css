@@ -1,0 +1,227 @@
+@media screen and (max-width: 960px) {
+    .second-top div button{
+        width: 60%;
+        padding: 1em 2em;
+    }
+    .card button{
+        width: 60%;
+    }
+}
+
+/* Mobile(375px to 576px) */
+@media only screen and (max-width:576px){
+    .first-top{
+        line-height: 20px;
+        width: 100%;
+        padding: 1em;
+    }
+    .img1{
+        width: 40%;
+        height: 40%;
+        margin: auto 0;
+    }
+    #first-btn{
+        padding: 0.5em 1.5em;
+        border-radius: 2em;
+    }
+    .second-top{
+        margin-top: 3em;
+        display: block;
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+    }
+    .second-top div h1{
+        width: 100%;
+        font-size: 1.6em;
+    }
+    .second-top div p{
+        width: 100%;
+        padding: 1em;
+    }
+    .second-top > div button{
+        margin: 2em;
+        width: 70%;
+        padding: 1em;
+    }
+    
+    /* Main */
+    main{
+        display: block;
+    }
+    main div{
+        width: 100%;
+    }
+    .first-card{
+        display: block;
+    }
+    .second-card{
+        display: block;
+    }
+    .third-card{
+        display: block;
+        margin-bottom: 2em;
+      
+    }
+
+    .card{
+        top: 0;
+        bottom: 0;
+        padding: 0;
+        position: static;
+        transform: none;
+        margin: auto 2em;
+        width: auto;
+    }
+    .card button{
+        width: 70%;
+        margin:1em auto;
+    }
+    footer{
+        display: block;
+        margin: 1em 0 0 0;
+    }
+    footer div{
+        display: block; 
+    }
+
+    .footer-top img{
+        padding: 1em 0;
+        width: 30%;
+        filter: invert(100%) brightness(200%);
+        background: transparent;
+        margin: 1em 0 0 0;
+    }
+    .footer-middle{
+        display: block;
+        text-align: left;
+    }
+    .footer-middle .about{
+        text-align: left;
+    }
+    .footer-middle .about a{
+        text-align: left;
+        padding: 1em 0;
+    }
+    .footer-middle .career a{
+        text-align: left;
+        padding: 1em 0;
+    }
+    .footer-middle .social{
+        text-align: center;
+        padding: 1em 0;
+    }
+    .footer-bottom p{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+/* Mobile View */
+@media only screen and (max-width:375px) {
+    .first-top{
+        line-height: 20px;
+        width: 100%;
+        padding: 1em;
+    }
+    .img1{
+        width: 40%;
+        height: 40%;
+        margin: auto 0;
+    }
+    #first-btn{
+        padding: 0.5em 1.5em;
+        border-radius: 2em;
+    }
+    .second-top{
+        margin-top: 3em;
+        display: block;
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+    }
+    .second-top div h1{
+        width: 100%;
+        font-size: 1.6em;
+    }
+    .second-top div p{
+        width: 100%;
+        padding: 1em;
+    }
+    .second-top > div button{
+        margin: 2em;
+        width: 70%;
+        padding: 1em;
+    }
+    
+    /* Main */
+    main{
+        display: block;
+    }
+    main div{
+        width: 100%;
+    }
+    .first-card{
+        display: block;
+    }
+    .second-card{
+        display: block;
+    }
+    .third-card{
+        display: block;
+        margin-bottom: 2em;
+      
+    }
+
+    .card{
+        top: 0;
+        bottom: 0;
+        padding: 0;
+        position: static;
+        transform: none;
+        margin: auto 2em;
+        width: auto;
+    }
+    .card button{
+        width: 70%;
+        margin:1em auto;
+    }
+    footer{
+        display: block;
+        margin: 1em 0 0 0;
+    }
+    footer div{
+        display: block; 
+    }
+
+    .footer-top img{
+        padding: 1em 0;
+        width: 30%;
+        filter: invert(100%) brightness(200%);
+        background: transparent;
+        margin: 1em 0 0 0;
+    }
+    .footer-middle{
+        display: block;
+        text-align: left;
+    }
+    .footer-middle .about{
+        text-align: left;
+    }
+    .footer-middle .about a{
+        text-align: left;
+        padding: 1em 0;
+    }
+    .footer-middle .career a{
+        text-align: left;
+        padding: 1em 0;
+    }
+    .footer-middle .social{
+        text-align: center;
+        padding: 1em 0;
+    }
+    .footer-bottom p{
+        text-align: center;
+        font-size: 15px;
+    }
+}

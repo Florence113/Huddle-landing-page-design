@@ -29,6 +29,7 @@ header div{
 .img1{
     width: 11%;
     height: 11%;
+    margin: auto 0;
 }
 #first-btn{
     text-align: center;
@@ -37,6 +38,12 @@ header div{
     border: none;
     background: white;
     box-shadow: 3px 3px 7px black;
+    cursor: pointer;
+}
+#first-btn a{
+    text-decoration: none;
+    color: #13242b;
+    font-weight: 700;
 }
 /* second top */
 .second-top{
@@ -59,6 +66,7 @@ header div{
     margin: 1em 0 0 0;
     background: hsl(322, 100%, 66%);
     color: rgb(255, 222, 255);
+    cursor: pointer;
     border: transparent;
     animation: move 3s infinite;
 }
@@ -95,6 +103,7 @@ main div{
     background: white;
     box-shadow: 3px 3px 7px black;
     margin: 0 0 1em;
+    border-radius: 10px;
 }
 .first-card div{
     padding: 4em;
@@ -105,6 +114,7 @@ main div{
 .first-card div h3{
     margin-bottom: 1em;
     color: #13242b;
+    font-size: 18px;
 }
 .first-card div p{
     color: #aeafb1;
@@ -116,6 +126,7 @@ main div{
     background: white;
     box-shadow: 3px 3px 7px black;
     margin: 0 0 1em;
+    border-radius: 10px;
 }
 .second-card div{
     padding: 4em;
@@ -126,6 +137,7 @@ main div{
 .second-card div h3{
     margin-bottom: 1em;
     color: #13242b;
+    font-size: 18px;
 }
 .second-card div p{
     color: #aeafb1;
@@ -137,7 +149,8 @@ main div{
     height: 100%;
     background: white;
     box-shadow: 3px 3px 7px black;
-    margin: 0 0 1em;
+    margin: 0 0 10em;
+    border-radius: 10px;
 }
 .third-card div{
     padding: 4em;
@@ -148,6 +161,7 @@ main div{
 .third-card div h3{
     margin-bottom: 1em;
     color: #13242b;
+    font-size: 18px;
 }
 .third-card div p{
     color: #aeafb1;
@@ -155,16 +169,20 @@ main div{
 
 .card{
     width: 40%;
-    margin: 1em auto;
+    margin: auto;
     border: 2px solid white;
+    border-radius: 10px;
     box-shadow: 3px 3px 7px black;
+    text-align: center;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: -900px;
-    left: 0px;
+    bottom: -170%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background: white;
-    z-index: auto;
+    z-index: 2;
 }
 .card h3{
     margin: 2em auto;
@@ -174,7 +192,7 @@ main div{
     width: 40%;
     padding: 1em;
     border-radius: 2em;
-    margin: auto;
+    margin: 0 auto 2em;
     background: hsl(322, 100%, 66%);
     color: rgb(255, 222, 255);
     border: transparent;
@@ -182,6 +200,7 @@ main div{
     justify-content: center;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -189,7 +208,7 @@ footer{
     position: relative;
     background: hsl(192, 100%, 9%);
     color: white;
-    margin: 0 auto em;
+    margin: 5em auto 0;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -203,9 +222,9 @@ footer div{
 }
 .footer-top img{
     margin: 4em 0 1em 0;
-    background-color: yellow;
     color: white;
     width: 12%;
+    filter: invert(100%) brightness(200%);
 }
 
 .footer-middle{
@@ -242,7 +261,21 @@ span img{
     text-align: center;
     padding: 0.8em;
 }
-
+a{
+    cursor: pointer;
+    color: white;
+}
+.footer-middle a:hover{
+    text-decoration: underline;
+}
+.footer-middle .social a i:hover{
+    background: hsl(322, 100%, 66%);
+    border: 5px solid hsl(322, 100%, 66%);
+}
+.fa .fa-instagram{
+    background-color: red;
+    font-size: 100px;
+}
 .footer-bottom{
     margin-top: 2em;
 }
